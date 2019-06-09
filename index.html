@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="main-head">Item Lister</h1>
+        </div>
+        <input type="text" class="searchBar" placeholder="Search items...">
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <form class="myForm" id="myFormId">
+                <label id ="labelId" for="addItems">Add Items</label>
+                <input type="text" id="formBar">
+                <input class="btn" type="submit" value="Submit">
+            </form>
+            <ul class="items" id="itemsId">
+                <li class="item">Item 1 <button class="cBtn">
+                        X
+                      </button></li>
+                <li class="item">Item 2 <button class="cBtn">
+                    X
+                    </button></li>
+                <li class="item">Item 3 <button class="cBtn">
+                        X
+                        </button></li>                
+                <li class="item">Item 4 <button class="cBtn">
+                        X
+                        </button></li>
+                <li class="item">Item 5 <button class="cBtn">
+                        X
+                        </button></li>
+                <div id="output">
+                </div>
+            </ul>
+            <button class="btnClass" id="btnId">hide</button>
+            
+        </div>
+    </div>
+    <script src="dom4.js"></script>
+</body>
+</html>
